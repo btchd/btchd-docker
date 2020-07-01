@@ -2,7 +2,7 @@ language: bash
 services: docker
 
 env:
-  - VARIANT=18.04
+  - VARIANT=1.4.0
 
 install:
   - git clone https://github.com/docker-library/official-images.git official-images
