@@ -1,5 +1,5 @@
-Bitcoind for Docker
-===================
+BitcoinHD server for Docker
+===========================
 
 [![Docker Stars](https://img.shields.io/docker/stars/btchd/btchdd.svg)](https://hub.docker.com/r/btchd/btchdd/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/btchd/btchdd.svg)](https://hub.docker.com/r/btchd/btchdd/)
