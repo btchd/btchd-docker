@@ -46,7 +46,7 @@ fi
 
 # Initialize the data container
 docker volume create --name=btchdd-data
-docker run -v btchdd-data:/btchd --rm $BHD_IMAGE bhd_init
+docker run -v btchdd-data:/btchd --rm $BHD_IMAGE btchd_init
 
 # Start btchdd via upstart and docker
 curl https://raw.githubusercontent.com/btchd/docker-btchdd/master/upstart.init > /etc/init/docker-btchdd.conf

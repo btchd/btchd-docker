@@ -2,13 +2,13 @@
 set -e
 
 # Generate the password the first time
-bhd_init 2>/dev/null
+btchd_init 2>/dev/null
 eval `grep rpcpassword $HOME/.btchd/btchd.conf`
 rpcpassword1=$rpcpassword
 
 # Generate the password again
 rm ~/.btchd/btchd.conf
-bhd_init 2>/dev/null
+btchd_init 2>/dev/null
 eval `grep rpcpassword $HOME/.btchd/btchd.conf`
 rpcpassword2=$rpcpassword
 
