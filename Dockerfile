@@ -29,7 +29,7 @@ RUN mkdir -p /usr/local \
 	&& rm -rf "/tmp/bhd-$BHD_VERSION"
 
 # grab gosu for easy step-down from root
-ENV GOSU_VERSION 1.7
+ENV GOSU_VERSION 1.12
 RUN set -x \
 	&& apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
