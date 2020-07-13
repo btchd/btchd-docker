@@ -1,6 +1,6 @@
 FROM ubuntu:18.04 AS btchd-pkg
-ENV BHD_VERSION "v1.4.1"
-ENV BHD_PKGDLURL "https://github.com/btchd/btchd/releases/download/v1.4.1/bhd-v1.4.1-42517870d-x86_64-linux-gnu.tar.gz"
+ENV BHD_VERSION "v1.4.2"
+ENV BHD_PKGDLURL "https://github.com/btchd/btchd/releases/download/v1.4.2/bhd-v1.4.2-52bb5b0fd-x86_64-linux-gnu.tar.gz"
 ADD "$BHD_PKGDLURL" /
 
 FROM btchd-pkg
